@@ -1,0 +1,36 @@
+{
+  "name": "karsh-barkod",
+  "version": "0.1.0",
+  "description": "Elle yazılmış Code 128 / EAN-13 / EAN-8 / UPC-A, GS1 kontrol hanesi, SVG geometrisi ve TSPL/ZPL etiket komutları · Barcodes, label geometry and printer dialects in plain TypeScript.",
+  "keywords": [
+    "barcode",
+    "barkod",
+    "code128",
+    "ean13",
+    "ean8",
+    "upc-a",
+    "gs1",
+    "check-digit",
+    "zpl",
+    "tspl",
+    "zebra",
+    "label",
+    "svg",
+    "typescript",
+    "zero-dependency"
+  ],
+  "license": "MIT",
+  "author": "Hasan Karşı / KARSH",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ]
+}
