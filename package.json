@@ -22,6 +22,8 @@
   "license": "MIT",
   "author": "Hasan Karşı / KARSH",
   "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
   "engines": {
     "node": ">=18"
   },

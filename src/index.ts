@@ -9,4 +9,4 @@
  * the answer to "how wide will this print".
  */
 
-export * from "./barkod";
+export * from "./barkod.js";

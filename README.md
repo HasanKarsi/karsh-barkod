@@ -49,8 +49,10 @@ npm i github:<kullanıcı>/karsh-barkod
 ```
 
 Kaynak TypeScript olduğu için tüketen tarafın TS'i çözebilmesi gerekir:
-bir paketleyici (Vite, webpack, Next) ya da `tsc`. Düz `node` ile
-çalıştırmak için önce derle.
+Vite, esbuild, webpack ya da Next gibi bir paketleyici. Next'te ayrıca
+`next.config` dosyana `transpilePackages: ["karsh-barkod"]` eklemen gerekir: Next
+`node_modules` içindeki ham TypeScript'i kendiliğinden derlemez. Düz `node`
+paketi olduğu gibi çalıştıramaz.
 
 Ya da `src/barkod.ts` dosyasını projene kopyala: tek dosya, hiç `import`
 satırı yok, lisansı MIT.
@@ -294,8 +296,10 @@ npm i github:<user>/karsh-barkod
 ```
 
 Because it ships as TypeScript, whatever consumes it has to resolve TS: a
-bundler (Vite, webpack, Next) or `tsc`. To run it under plain `node`,
-compile it first.
+bundler such as Vite, esbuild, webpack or Next. On Next you also need
+`transpilePackages: ["karsh-barkod"]` in your `next.config`: Next does not compile raw
+TypeScript inside `node_modules` on its own. Plain `node` cannot run the
+package as it ships.
 
 Or copy `src/barkod.ts` into your project — one file, not a single `import`
 line in it, MIT.
