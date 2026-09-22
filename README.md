@@ -45,7 +45,7 @@ Etiket o genişlikten ortalanır ve önizleme, yazıcının basacağı çubuklar
 Paket TypeScript kaynağı olarak dağıtılır; derleme adımı yoktur.
 
 ```bash
-npm i github:<kullanıcı>/karsh-barkod
+npm i github:HasanKarsi/karsh-barkod
 ```
 
 Kaynak TypeScript olduğu için tüketen tarafın TS'i çözebilmesi gerekir:
@@ -292,7 +292,7 @@ printer will draw.
 The package ships as TypeScript source; there is no build step.
 
 ```bash
-npm i github:<user>/karsh-barkod
+npm i github:HasanKarsi/karsh-barkod
 ```
 
 Because it ships as TypeScript, whatever consumes it has to resolve TS: a
